@@ -1,0 +1,10 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.ContactPage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "MasterLayout.cshtml";
+}
+@Umbraco.RenderMacro("ContactForm")
+
+@*<div>
+    @Html.Action("index", "ContactFormSurface")
+</div>*@

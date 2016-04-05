@@ -1,0 +1,41 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@*
+   ???
+     @model webdevfinal.ViewModels.ContactForm
+    
+*@
+<form class="form-horizontal">
+ <div class="form-group">
+ <label class="col-sm-2 control-label">Name</label>
+ <div class="col-sm-6">
+ <input name="name" id="name" type="text" class="form-control" placeholder="Name"
+/>
+ </div>
+ </div>
+ <div class="form-group">
+ <label class="col-sm-2 control-label">Email</label>
+ <div class="col-sm-6">
+ <input name="email" id="email" type="email" class="form-control"
+placeholder="Email address" />
+ </div>
+ </div>
+ <div class="form-group">
+ <label class="col-sm-2 control-label">Subject</label>
+ <div class="col-sm-6">
+ <input name="subject" id="subject" type="text" class="form-control"
+placeholder="Subject" />
+ </div>
+ </div>
+ <div class="form-group">
+ <label class="col-sm-2 control-label"> Message </label>
+ <div class="col-sm-6">
+ <textarea name="message" id="message" class="form-control" placeholder="Your
+message" rows="5"></textarea>
+ </div>
+ </div>
+ <div class="form-group">
+ <div class="col-sm-offset-2 col-sm-6">
+     <button id="contact-submit" type="submit" class="btn btn-primary input-medium pullleft">Send</button>
+ </div>
+ </div>
+</form>
